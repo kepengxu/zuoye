@@ -2,6 +2,8 @@
 
 
 import random
+import numpy as np
+import matplotlib.pyplot as plt
 from tqdm import tqdm
 # insert=[]
 # bubble=[]
@@ -154,8 +156,11 @@ if __name__=='__main__':
         quicks.append(timesquick)
     print '\n'
     print insert
+    print bubble
+    print check
     print quicks
     print merges
         # print a1,a2,a3,timesmerge,timesquick
-
-    print 'test--'
+    # x=np.arange()
+    #
+    # print 'test--'
