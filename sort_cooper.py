@@ -157,3 +157,5 @@ if __name__=='__main__':
     print quicks
     print merges
         # print a1,a2,a3,timesmerge,timesquick
+
+    print 'test--'
