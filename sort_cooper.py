@@ -132,7 +132,7 @@ if __name__=='__main__':
     merges = []
     quicks = []
     global timesmerge,timesquick
-    for j in tqdm(range(1,20)):
+    for j in tqdm(range(1,51)):
         timesquick=0
         timesmerge=0
     #L=get_list()
@@ -152,6 +152,7 @@ if __name__=='__main__':
         check.append(a3)
         merges.append(timesmerge)
         quicks.append(timesquick)
+    print '\n'
     print insert
     print quicks
     print merges
