@@ -5,11 +5,7 @@ import random
 import numpy as np
 import matplotlib.pyplot as plt
 from tqdm import tqdm
-# insert=[]
-# bubble=[]
-# check=[]
-# merges=[]
-# quicks=[]
+
 import sys
 sys.setrecursionlimit(10000000)
 def get_list():
